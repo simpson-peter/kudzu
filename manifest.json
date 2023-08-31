@@ -1,12 +1,17 @@
 {
-    "manifest_version": 3,
-    "name": "Kudzu",
-    "version": "0.1.0",
-    "content_scripts": [
-        {
-          "js": ["hulu.js"],
-          "matches": ["https://www.hulu.com/watch/*", "https://www.hulu.com/*", "http://www.hulu.com/*"]
-        }
-    ]
-  }
-  
+  "manifest_version": 3,
+  "name": "Kudzu",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "js": [
+        "hulu.js"
+      ],
+      "matches": [
+        "https://www.hulu.com/watch/*",
+        "https://www.hulu.com/*",
+        "http://www.hulu.com/*"
+      ]
+    }
+  ]
+}
